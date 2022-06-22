@@ -16,7 +16,7 @@ function cadastro () {
 
     fclose($arquivo);
 
-    $mensagem = "Cadastro realizado com sucesso";
+    $mensagem = "Cadastro realizado com sucesso ✅";
 
     include 'telas/mensagem.php';
 }    
@@ -55,7 +55,7 @@ function excluir () {
     foreach ($contatos as $cadaContato) {
         fwrite($arquivo, $cadaContato);
     }
-    $mensagem = 'Contato excluído com sucesso!';
+    $mensagem = 'Contato excluído com sucesso!' . '❎ ';
     include ('telas/mensagem.php');
 }
 
@@ -82,7 +82,7 @@ function editar () {
         
         fclose($arquivo);
 
-        $mensagem = 'Contato atualizado';
+        $mensagem = 'Contato atualizado' . '🔂';
         include ('telas/mensagem.php');
     }
 

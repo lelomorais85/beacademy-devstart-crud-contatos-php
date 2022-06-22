@@ -1,4 +1,4 @@
-<h1> Faça seu login</h1>
+<h1> Faça seu login 🔐</h1>
 
 <form action="">
     <input type="text" class="form-control mt-2" placeholder="Email">

@@ -1,7 +1,7 @@
 <?php
 
-include 'telas/menu.php';
 include 'telas/head.php'; 
+include 'telas/menu.php';
 include 'acoes.php'; 
 
 $url = explode('?', $_SERVER['REQUEST_URI']);
